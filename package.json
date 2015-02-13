@@ -1,0 +1,39 @@
+{
+  "name": "gulp-emojify",
+  "version": "0.0.1",
+  "description": "Add emoji/s to your message/s",
+  "license": "MIT",
+  "repository": "oitozero/gulp-emojify",
+  "author": {
+    "name": "Pedro Sampaio",
+    "email": "pedro@oitozero.com",
+    "url": "https://github.com/oitozero"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "gulpplugin",
+    "gulp",
+    "notify",
+    "notification",
+    "emoji"
+  ],
+  "dependencies": {
+    "gulp": "^3.8.11",
+    "gulp-util": "^3.0.1",
+    "node-emoji": "^0.1.0",
+    "through2": "^0.6.3"
+  },
+  "devDependencies": {
+    "gulp-plumber": "^0.6.6",
+    "mocha": "*",
+    "run-sequence": "^1.0.2"
+  }
+}
