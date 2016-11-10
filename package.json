@@ -1,6 +1,6 @@
 {
   "name": "gulp-emojify",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Add emoji/s to your message/s",
   "license": "MIT",
   "repository": "oitozero/gulp-emojify",
@@ -16,7 +16,8 @@
     "test": "mocha"
   },
   "files": [
-    "index.js"
+    "index.js",
+    "lib/"
   ],
   "keywords": [
     "gulpplugin",
